@@ -1,0 +1,9 @@
+<h3>Post Form</h3>
+
+<!-- <form action="<%posts_path%>" method="post"> -->
+  <%= form_tag posts_path do %>
+  <input type="text" name="post[title]" value="">
+  <input type="text" name="post[description]" value="">
+  <input type="submit" value="Submit">
+  <%end%>
+<!-- </form> -->
